@@ -35,7 +35,7 @@ def get_english_meaning(emoticons, emoji)
           hash = key
           elsif false
             puts "Sorry, that emoticon was not found"
-          #binding.pry
+          binding.pry
         end
       end   
       hash[:english]
