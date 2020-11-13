@@ -21,6 +21,7 @@ def get_japanese_emoticon(emoticons, emoji)
       load_library(emoticons).find do |key, value| 
         if value[:english] == emoji
           hash = value
+          binding.pry
         elsif false 
           hash[:japanese] = "Sorry, that emoticon was not found"
         end
