@@ -18,7 +18,7 @@ end
 
 def get_japanese_emoticon(emoticons, emoji)
     hash = Hash.new
-    load_library(emoticons).each do |key, value|
+    load_library(emoticons).find do |key, value|
         if value[:english].include?("O:)")
           hash[:japanese] = value[:japanese]
           #binding.pry
