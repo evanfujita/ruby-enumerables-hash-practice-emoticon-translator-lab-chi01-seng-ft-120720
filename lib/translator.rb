@@ -22,23 +22,20 @@ def get_japanese_emoticon(emoticons, emoji)
         if value[:english] == emoji
           hash = value
         elsif false 
-          puts "Sorry"
+          hash "Sorry, that emoticon was not found"
         end
-        #binding.pry
       end
-      
-          puts "YES"
-        
    hash[:japanese]
 end
 
 def get_english_meaning(emoticons, emoji)
   hash = Hash.new
-  load_library(emoticons).each do |key, value|
-        if value[:japanese].include?(emoji)
-          hash[:english] = key
+    load_library(emoticons).find do |key, value|
+        if value[:japanese] == emoji
+          hash = key
         else
-          hash[:english] = "Sorry, that emoticon was not found"
+          elsif false
+            hash = "Sorry, that emoticon was not found"
           #binding.pry
         end
       end   
