@@ -40,7 +40,7 @@ def get_english_meaning(emoticons, emoji)
       if !hash
         no
       else
-        puts ""Sorry, that emoticon was not found""
+        puts ""Sorry, that emoticon was not found"
   end
 
 
