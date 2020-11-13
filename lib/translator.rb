@@ -23,7 +23,7 @@ def get_japanese_emoticon(emoticons, emoji)
       end
       binding.pry
           puts "YES"
-        end
+        
    hash[:japanese]
 end
 
