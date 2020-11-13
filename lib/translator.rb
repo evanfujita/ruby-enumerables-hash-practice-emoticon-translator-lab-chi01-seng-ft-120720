@@ -36,7 +36,7 @@ def get_english_meaning(emoticons, emoji)
           elsif false
             puts "Sorry, that emoticon was not found"
         end
-          binding.pry
+          #binding.pry
       end   
       word
   end
