@@ -37,7 +37,8 @@ def get_english_meaning(emoticons, emoji)
       else
         hash = "Sorry, that emoticon was not found"
       end   
-      hash
+    end
+    hash
   end
 
 
