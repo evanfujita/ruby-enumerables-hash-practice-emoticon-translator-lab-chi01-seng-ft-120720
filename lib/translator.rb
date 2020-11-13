@@ -37,6 +37,7 @@ def get_english_meaning(emoticons, emoji)
           word = "Sorry, that emoticon was not found"
         end
       end   
+      word
   end
 
 
