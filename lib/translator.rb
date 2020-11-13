@@ -22,7 +22,7 @@ def get_japanese_emoticon(emoticons, emoji)
         if value[:english] == emoji
           hash = value
         elsif false 
-          hash "Sorry, that emoticon was not found"
+          puts "Sorry, that emoticon was not found"
         end
       end
    hash[:japanese]
