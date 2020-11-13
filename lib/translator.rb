@@ -23,6 +23,7 @@ def get_japanese_emoticon(emoticons, emoji)
           hash = value
         elsif !value[:english].any? == emoji 
           puts "Sorry"
+        end
         #binding.pry
       end
       
