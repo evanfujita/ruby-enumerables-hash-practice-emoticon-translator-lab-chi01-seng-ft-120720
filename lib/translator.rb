@@ -23,6 +23,7 @@ def get_japanese_emoticon(emoticons, emoji)
       elsif
       key[:english] == nil
         puts "NO"
+      end  
    end
    hash[:japanese]
 end
