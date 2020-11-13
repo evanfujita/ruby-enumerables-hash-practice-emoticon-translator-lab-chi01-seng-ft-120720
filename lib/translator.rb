@@ -37,12 +37,7 @@ def get_english_meaning(emoticons, emoji)
           no = "Sorry, that emoticon was not found"
         end
       end   
-      if yes
-        yes
-      elsif
-        !hash
-        no
-      end
+      hash
   end
 
 
