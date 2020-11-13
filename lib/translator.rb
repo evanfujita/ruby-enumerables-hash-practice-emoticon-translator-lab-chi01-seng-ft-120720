@@ -38,7 +38,6 @@ def get_english_meaning(emoticons, emoji)
           hash
           end
       end   
-      hash
   end
 
 
