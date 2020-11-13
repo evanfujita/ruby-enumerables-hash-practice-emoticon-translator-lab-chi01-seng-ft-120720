@@ -25,8 +25,7 @@ def get_japanese_emoticon(emoticons, emoji)
         elsif 
            !value[:english].(emoji)
           hash[:japanese] = "Sorry, that emoticon was not found"
-          binding.pry
-          puts
+          #binding.pry
         end
    end
    hash[:japanese]
