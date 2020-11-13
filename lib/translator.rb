@@ -20,11 +20,9 @@ def get_japanese_emoticon(emoticons, emoji)
     hash = Hash.new
       load_library(emoticons).find do |key, value| key[:english] == emoji
         hash << key[:japanese]
-          if
-      key[:english] == nil
-        puts "NO"
-      end  
-   end
+          binding.pry
+          puts "YES"
+        end
    hash[:japanese]
 end
 
