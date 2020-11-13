@@ -32,7 +32,7 @@ end
 def get_english_meaning(emoticons, emoji)
     load_library(emoticons).find do |key, value|
         if value[:japanese] == emoji
-            word = key
+            word = load_library(emoticons)[key]
           elsif false
             word = "Sorry, that emoticon was not found"
         end
