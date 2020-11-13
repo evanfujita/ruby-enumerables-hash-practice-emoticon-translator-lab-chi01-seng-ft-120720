@@ -34,7 +34,7 @@ def get_english_meaning(emoticons, emoji)
         if value[:japanese] == emoji
           hash = key
           elsif false
-            hash = "Sorry, that emoticon was not found"
+            puts "Sorry, that emoticon was not found"
           #binding.pry
         end
       end   
