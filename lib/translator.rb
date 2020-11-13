@@ -42,6 +42,7 @@ def get_english_meaning(emoticons, emoji)
       elsif
         !hash
         no
+      end
   end
 
 
